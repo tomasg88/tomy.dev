@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Background from "../components/Background";
 import LandingButton from "../components/LandingButton";
 
 export default function Home() {
@@ -10,8 +11,7 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<div className='stars'></div>
-				<div className='twinkling'></div>
+				<Background />
 				<div className="landing">
 					<LandingButton name="About" />
 					<LandingButton name="Projects" />
