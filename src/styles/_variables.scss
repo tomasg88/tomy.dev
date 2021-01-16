@@ -1,1 +1,5 @@
 $font-big:  1.6rem;
+
+// BREAKPOINTS
+$breakpoints-up: ("medium": "40em", "large": "64em", "xlarge": "87.5em");   // 640, 1024, 1400px
+$breakpoints-down: ("medium": "39.9375em", "large": "63.9375em", "xlarge": " 87.4375em");   // 639, 1023, 1399px
