@@ -1,0 +1,17 @@
+{
+  "name": "temp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "10.0.5",
+    "prettier": "^2.2.1",
+    "react": "0.0.0-8e5adfbd7",
+    "react-dom": "0.0.0-8e5adfbd7",
+    "sass": "^1.32.4"
+  }
+}
