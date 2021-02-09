@@ -1,8 +1,13 @@
-// import '../styles/globals.css'
 import "../styles/main.scss";
+import Background from "../components/Background";
 
 function MyApp({ Component, pageProps }) {
-	return <Component {...pageProps} />
+	return (
+        <>
+            <Background />
+            <Component {...pageProps} />
+        </>
+    )
 }
 
 export default MyApp

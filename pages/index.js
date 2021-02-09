@@ -11,7 +11,6 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<Background />
 				<div className="landing">
 					<LandingButton name="about" />
 					<LandingButton name="projects" />
