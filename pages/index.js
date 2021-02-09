@@ -13,10 +13,10 @@ export default function Home() {
 			<main>
 				<Background />
 				<div className="landing">
-					<LandingButton name="About" />
-					<LandingButton name="Projects" />
-					<LandingButton name="Blog" />
-					<LandingButton name="Contact" />
+					<LandingButton name="about" />
+					<LandingButton name="projects" />
+					<LandingButton name="blog" />
+					<LandingButton name="contact" />
 				</div>
 			</main>
 		</div>
