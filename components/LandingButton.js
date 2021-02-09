@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import Link from "next/link";
 import useDynamicMousePushing from "../hooks/useDynamicMousePushing";
+import { motion } from "framer-motion";
 
 export default function LandingButton({ name }) {
     const refElement = useDynamicMousePushing();
@@ -19,9 +20,12 @@ export default function LandingButton({ name }) {
 			className="big-button flex flex-jc-c flex-ai-c"
 		>
             <Link href={'/'+name}>
-                <a>
+                <motion.a 
+                    animate={{ scale: 1.2 }}
+                    transition={{ duration: 0.5 }}
+                >
                     {capitalize(name)}
-                </a>
+                </motion.a>
             </Link>
 		</div>
 	);
