@@ -8,9 +8,9 @@ export default function Contact() {
         <div className={styles.main}>
             <BackButton />
             <section>
-                <h3 className={styles.title}>
-                    Título
-                </h3>
+                <h1 className={styles.contact}>
+                    Contacto
+                </h1>
             </section>
             <section id="content">
                 <p>Aca un parrafo con Lorem Ipsum</p>

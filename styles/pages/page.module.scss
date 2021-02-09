@@ -2,8 +2,17 @@
     position: relative;
     padding: 1rem;
     z-index: 1;
-    .title {
+    .about {
         color: red;
+    }
+    .projects {
+        color: lime;
+    }
+    .blog {
+        color: purple;
+    }
+    .contact {
+        color: yellow;
     }
     p {
         color: white;

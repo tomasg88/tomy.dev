@@ -8,9 +8,9 @@ export default function Blog() {
         <div className={styles.main}>
             <BackButton />
             <section>
-                <h3 className={styles.title}>
+                <h1 className={styles.blog}>
                     Blog
-                </h3>
+                </h1>
             </section>
             <section id="content">
                 <p>Aca un parrafo con Lorem Ipsum</p>
