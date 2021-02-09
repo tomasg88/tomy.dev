@@ -1,12 +1,14 @@
 import React from 'react'
+import BackButton from '../components/BackButton'
 import Background from '../components/Background'
-import styles from '../styles/page.module.scss'
+import styles from '../styles/pages/page.module.scss'
 
 export default function Projects() {
     return (
         <>
             <Background />
             <div className={styles.main}>
+                <BackButton />
                 <section>
                     <h3 className={styles.title}>
                         Projectos
