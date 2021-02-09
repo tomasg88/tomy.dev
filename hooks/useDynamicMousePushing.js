@@ -34,9 +34,11 @@ export default function useDynamicMousePushing() {
 
 		return () => {
 			const resetPosition = () =>
-				(element.current.style.transform = `perspective(600px) rotateX(0) rotateX(0)`);
-			element.current.removeEventListener("mousemove", resetPosition);
-			element.current.removeEventListener("mouseout", resetPosition);
+                (element.current.style.transform = `perspective(600px) rotateX(0) rotateX(0)`);
+            if (element.current) {
+                element.current.removeEventListener("mousemove", resetPosition);
+                element.current.removeEventListener("mouseout", resetPosition);
+            }
 		};
 	}, []);
 
