@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Background from "../components/Background";
-import LandingButton from "../components/LandingButton";
+import styles from '../styles/pages/landing.module.scss'
 
 export default function Home() {
 	return (
@@ -10,13 +9,8 @@ export default function Home() {
 				<link key="favicon" rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main>
-				<div className="landing">
-					<LandingButton name="about" />
-					<LandingButton name="projects" />
-					<LandingButton name="blog" />
-					<LandingButton name="contact" />
-				</div>
+			<main className={styles.container + ' flex flex-jc-c flex-ai-c'}>
+				<h1>tomy.dev</h1>
 			</main>
 		</div>
 	);
